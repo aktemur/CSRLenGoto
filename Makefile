@@ -130,7 +130,7 @@ endif
 
 # OMP compiler
 OMPCC=icpc
-OMPCC_FLAGS=-openmp -O3 -lrt -fno-alias -xHost -lnuma -O3 -mkl
+OMPCC_FLAGS=-qopenmp -O3 -lrt -fno-alias -xHost -lnuma -O3 -mkl
 
 # Includes
 INC += -I$(CUB_DIR) -I$(CUB_DIR)test 
