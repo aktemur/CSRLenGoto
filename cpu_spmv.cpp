@@ -257,14 +257,12 @@ template <
 void SpmvGold(
     CsrMatrix<ValueT, OffsetT>&     a,
     ValueT*                         vector_x,
-    ValueT*                         vector_y_in,
     ValueT*                         vector_y_out,
-    ValueT                          alpha,
-    ValueT                          beta)
+    ValueT                          alpha)
 {
     for (OffsetT row = 0; row < a.num_rows; ++row)
     {
-        ValueT partial = beta * vector_y_in[row];
+        ValueT partial = 0.0;
         for (
             OffsetT offset = a.row_offsets[row];
             offset < a.row_offsets[row + 1];
@@ -617,18 +615,16 @@ void RunTests(
 
     // Allocate input and output vectors (if available, use NUMA allocation to force storage on the 
     // sockets for performance consistency)
-    ValueT *vector_x, *vector_y_in, *reference_vector_y_out, *vector_y_out;
+    ValueT *vector_x, *reference_vector_y_out, *vector_y_out;
     if (csr_matrix.IsNumaMalloc())
     {
         vector_x                = (ValueT*) numa_alloc_onnode(sizeof(ValueT) * csr_matrix.num_cols, 0);
-        vector_y_in             = (ValueT*) numa_alloc_onnode(sizeof(ValueT) * csr_matrix.num_rows, 0);
         reference_vector_y_out  = (ValueT*) numa_alloc_onnode(sizeof(ValueT) * csr_matrix.num_rows, 0);
         vector_y_out            = (ValueT*) numa_alloc_onnode(sizeof(ValueT) * csr_matrix.num_rows, 0);
     }
     else
     {
         vector_x                = (ValueT*) mkl_malloc(sizeof(ValueT) * csr_matrix.num_cols, 4096);
-        vector_y_in             = (ValueT*) mkl_malloc(sizeof(ValueT) * csr_matrix.num_rows, 4096);
         reference_vector_y_out  = (ValueT*) mkl_malloc(sizeof(ValueT) * csr_matrix.num_rows, 4096);
         vector_y_out            = (ValueT*) mkl_malloc(sizeof(ValueT) * csr_matrix.num_rows, 4096);
     }
@@ -636,11 +632,8 @@ void RunTests(
     for (int col = 0; col < csr_matrix.num_cols; ++col)
         vector_x[col] = 1.0;
 
-    for (int row = 0; row < csr_matrix.num_rows; ++row)
-        vector_y_in[row] = 1.0;
-
     // Compute reference answer
-    SpmvGold(csr_matrix, vector_x, vector_y_in, reference_vector_y_out, alpha, beta);
+    SpmvGold(csr_matrix, vector_x, reference_vector_y_out, alpha);
 
     float avg_ms, setup_ms;
 
@@ -660,14 +653,12 @@ void RunTests(
     if (csr_matrix.IsNumaMalloc())
     {
         if (vector_x)                   numa_free(vector_x, sizeof(ValueT) * csr_matrix.num_cols);
-        if (vector_y_in)                numa_free(vector_y_in, sizeof(ValueT) * csr_matrix.num_rows);
         if (reference_vector_y_out)     numa_free(reference_vector_y_out, sizeof(ValueT) * csr_matrix.num_rows);
         if (vector_y_out)               numa_free(vector_y_out, sizeof(ValueT) * csr_matrix.num_rows);
     }
     else
     {
         if (vector_x)                   mkl_free(vector_x);
-        if (vector_y_in)                mkl_free(vector_y_in);
         if (reference_vector_y_out)     mkl_free(reference_vector_y_out);
         if (vector_y_out)               mkl_free(vector_y_out);
     }
