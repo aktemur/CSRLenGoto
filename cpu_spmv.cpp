@@ -255,20 +255,22 @@ template <
     typename ValueT,
     typename OffsetT>
 void SpmvGold(
-    CsrMatrix<ValueT, OffsetT>&     a,
-    ValueT*                         vector_x,
-    ValueT*                         vector_y_out,
-    ValueT                          alpha)
+    OffsetT                       num_rows,
+    OffsetT*    __restrict        row_offsets,
+    OffsetT*    __restrict        column_indices,
+    ValueT*     __restrict        values,
+    ValueT*     __restrict        vector_x,
+    ValueT*     __restrict        vector_y_out)
 {
-    for (OffsetT row = 0; row < a.num_rows; ++row)
+    for (OffsetT row = 0; row < num_rows; ++row)
     {
         ValueT partial = 0.0;
         for (
-            OffsetT offset = a.row_offsets[row];
-            offset < a.row_offsets[row + 1];
+            OffsetT offset = row_offsets[row];
+            offset < row_offsets[row + 1];
             ++offset)
         {
-            partial += alpha * a.values[offset] * vector_x[a.column_indices[offset]];
+            partial += values[offset] * vector_x[column_indices[offset]];
         }
         vector_y_out[row] = partial;
     }
@@ -288,9 +290,10 @@ template <
     typename ValueT,
     typename OffsetT>
 void OmpMergeCsrmv(
-    int                             num_threads,
-    CsrMatrix<ValueT, OffsetT>&     a,
-    OffsetT*    __restrict        row_end_offsets,    ///< Merge list A (row end-offsets)
+    int                           num_threads,
+    OffsetT                       num_rows,
+    OffsetT                       num_nonzeros,
+    OffsetT*    __restrict        row_offsets,
     OffsetT*    __restrict        column_indices,
     ValueT*     __restrict        values,
     ValueT*     __restrict        vector_x,
@@ -306,7 +309,7 @@ void OmpMergeCsrmv(
         // Merge list B (NZ indices)
         CountingInputIterator<OffsetT>  nonzero_indices(0);
 
-        OffsetT num_merge_items     = a.num_rows + a.num_nonzeros;                          // Merge path total length
+        OffsetT num_merge_items     = num_rows + num_nonzeros;                          // Merge path total length
         OffsetT items_per_thread    = (num_merge_items + num_threads - 1) / num_threads;    // Merge items per thread
 
         // Find starting and ending MergePath coordinates (row-idx, nonzero-idx) for each thread
@@ -315,14 +318,14 @@ void OmpMergeCsrmv(
         int     start_diagonal      = std::min(items_per_thread * tid, num_merge_items);
         int     end_diagonal        = std::min(start_diagonal + items_per_thread, num_merge_items);
 
-        MergePathSearch(start_diagonal, row_end_offsets, nonzero_indices, a.num_rows, a.num_nonzeros, thread_coord);
-        MergePathSearch(end_diagonal, row_end_offsets, nonzero_indices, a.num_rows, a.num_nonzeros, thread_coord_end);
+        MergePathSearch(start_diagonal, row_offsets + 1, nonzero_indices, num_rows, num_nonzeros, thread_coord);
+        MergePathSearch(end_diagonal, row_offsets + 1, nonzero_indices, num_rows, num_nonzeros, thread_coord_end);
 
         // Consume whole rows
         for (; thread_coord.x < thread_coord_end.x; ++thread_coord.x)
         {
             ValueT running_total = 0.0;
-            for (; thread_coord.y < row_end_offsets[thread_coord.x]; ++thread_coord.y)
+            for (; thread_coord.y < row_offsets[thread_coord.x + 1]; ++thread_coord.y)
             {
                 running_total += values[thread_coord.y] * vector_x[column_indices[thread_coord.y]];
             }
@@ -345,7 +348,7 @@ void OmpMergeCsrmv(
     // Carry-out fix-up (rows spanning multiple threads)
     for (int tid = 0; tid < num_threads - 1; ++tid)
     {
-        if (row_carry_out[tid] < a.num_rows)
+        if (row_carry_out[tid] < num_rows)
             vector_y_out[row_carry_out[tid]] += value_carry_out[tid];
     }
 }
@@ -373,7 +376,7 @@ float TestOmpMergeCsrmv(
 
     // Warmup/correctness
     memset(vector_y_out, -1, sizeof(ValueT) * a.num_rows);
-    OmpMergeCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
     if (!g_quiet)
     {
         // Check answer
@@ -384,9 +387,9 @@ float TestOmpMergeCsrmv(
         printf("\tUsing %d threads on %d procs\n", g_omp_threads, omp_get_num_procs());
  
     // Re-populate caches, etc.
-    OmpMergeCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
-    OmpMergeCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
-    OmpMergeCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
 
     // Timing
     float elapsed_ms = 0.0;
@@ -394,7 +397,7 @@ float TestOmpMergeCsrmv(
     timer.Start();
     for(int it = 0; it < timing_iterations; ++it)
     {
-        OmpMergeCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
+        OmpMergeCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
     }
     timer.Stop();
     elapsed_ms += timer.ElapsedMillis();
@@ -413,14 +416,15 @@ float TestOmpMergeCsrmv(
 template <typename OffsetT>
 void MklCsrmv(
     int                           num_threads,
-    CsrMatrix<float, OffsetT>&    a,
-    OffsetT*    __restrict        row_end_offsets,    ///< Merge list A (row end-offsets)
+    OffsetT                       num_rows,
+    OffsetT                       num_nonzeros,
+    OffsetT*    __restrict        row_offsets,
     OffsetT*    __restrict        column_indices,
     float*      __restrict        values,
     float*      __restrict        vector_x,
     float*      __restrict        vector_y_out)
 {
-    mkl_cspblas_scsrgemv("n", &a.num_rows, a.values, a.row_offsets, a.column_indices, vector_x, vector_y_out);
+    mkl_cspblas_scsrgemv("n", &num_rows, values, row_offsets, column_indices, vector_x, vector_y_out);
 }
 
 /**
@@ -429,14 +433,15 @@ void MklCsrmv(
 template <typename OffsetT>
 void MklCsrmv(
     int                           num_threads,
-    CsrMatrix<double, OffsetT>&   a,
-    OffsetT*    __restrict        row_end_offsets,    ///< Merge list A (row end-offsets)
+    OffsetT                       num_rows,
+    OffsetT                       num_nonzeros,
+    OffsetT*    __restrict        row_offsets,
     OffsetT*    __restrict        column_indices,
     double*     __restrict        values,
     double*     __restrict        vector_x,
     double*     __restrict        vector_y_out)
 {
-    mkl_cspblas_dcsrgemv("n", &a.num_rows, a.values, a.row_offsets, a.column_indices, vector_x, vector_y_out);
+    mkl_cspblas_dcsrgemv("n", &num_rows, values, row_offsets, column_indices, vector_x, vector_y_out);
 }
 
 
@@ -458,7 +463,7 @@ float TestMklCsrmv(
 
     // Warmup/correctness
     memset(vector_y_out, -1, sizeof(ValueT) * a.num_rows);
-    MklCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
+    MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
     if (!g_quiet)
     {
         // Check answer
@@ -469,9 +474,9 @@ float TestMklCsrmv(
     }
 
     // Re-populate caches, etc.
-    MklCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
-    MklCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
-    MklCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
+    MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
 
     // Timing
     float elapsed_ms = 0.0;
@@ -479,7 +484,7 @@ float TestMklCsrmv(
     timer.Start();
     for(int it = 0; it < timing_iterations; ++it)
     {
-        MklCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
+        MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
     }
     timer.Stop();
     elapsed_ms += timer.ElapsedMillis();
@@ -532,8 +537,6 @@ template <
     typename ValueT,
     typename OffsetT>
 void RunTests(
-    ValueT              alpha,
-    ValueT              beta,
     const std::string&  mtx_filename,
     int                 grid2d,
     int                 grid3d,
@@ -629,10 +632,10 @@ void RunTests(
     }
 
     for (int col = 0; col < csr_matrix.num_cols; ++col)
-        vector_x[col] = 1.0;
+        vector_x[col] = csr_matrix.num_cols - col + 2.0;
 
     // Compute reference answer
-    SpmvGold(csr_matrix, vector_x, reference_vector_y_out, alpha);
+    SpmvGold(csr_matrix.num_rows, csr_matrix.row_offsets, csr_matrix.column_indices, csr_matrix.values, vector_x, reference_vector_y_out);
 
     float avg_ms, setup_ms;
 
@@ -682,8 +685,6 @@ int main(int argc, char **argv)
             "[--threads=<OMP threads>] "
             "[--i=<timing iterations>] "
             "[--fp64 (default) | --fp32] "
-            "[--alpha=<alpha scalar (default: 1.0)>] "
-            "[--beta=<beta scalar (default: 0.0)>] "
             "\n\t"
                 "--mtx=<matrix market file> "
             "\n\t"
@@ -705,8 +706,6 @@ int main(int argc, char **argv)
     int                 wheel               = -1;
     int                 dense               = -1;
     int                 timing_iterations   = -1;
-    float               alpha               = 1.0;
-    float               beta                = 0.0;
 
     g_verbose = args.CheckCmdLineFlag("v");
     g_verbose2 = args.CheckCmdLineFlag("v2");
@@ -717,18 +716,16 @@ int main(int argc, char **argv)
     args.GetCmdLineArgument("grid2d", grid2d);
     args.GetCmdLineArgument("grid3d", grid3d);
     args.GetCmdLineArgument("dense", dense);
-    args.GetCmdLineArgument("alpha", alpha);
-    args.GetCmdLineArgument("beta", beta);
     args.GetCmdLineArgument("threads", g_omp_threads);
 
     // Run test(s)
     if (fp32)
     {
-        RunTests<float, int>(alpha, beta, mtx_filename, grid2d, grid3d, wheel, dense, timing_iterations, args);
+        RunTests<float, int>(mtx_filename, grid2d, grid3d, wheel, dense, timing_iterations, args);
     }
     else
     {
-        RunTests<double, int>(alpha, beta, mtx_filename, grid2d, grid3d, wheel, dense, timing_iterations, args);
+        RunTests<double, int>(mtx_filename, grid2d, grid3d, wheel, dense, timing_iterations, args);
     }
 
     printf("\n");
