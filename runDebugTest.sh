@@ -11,7 +11,7 @@ do
 
     echo ----- "$groupName"/"$matrixName"
 
-    ./cpu_spmv --mtx=./mtx/$groupName/$matrixName/$matrixName".mtx" --i=1 | grep CsrMV
+    ./cpu_spmv --mtx=./mtx/$groupName/$matrixName/$matrixName".mtx" --i=1 | grep -E "CsrMV|CsrLenGotoMV"
 
 done < matrixNames.txt
 

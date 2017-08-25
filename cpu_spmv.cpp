@@ -407,6 +407,157 @@ float TestOmpMergeCsrmv(
 
 
 //---------------------------------------------------------------------
+// CPU merge-based CSRLenGoto SpMV
+//---------------------------------------------------------------------
+
+/**
+ * OpenMP CPU merge-based SpMV
+ */
+template <
+    typename ValueT,
+    typename OffsetT>
+void csrLenGotoKernel(
+    OffsetT                       rowIdx_start,
+    OffsetT                       rowIdx_end,
+    OffsetT*    __restrict        row_offsets,
+    OffsetT*    __restrict        column_indices,
+    ValueT*     __restrict        values,
+    ValueT*     __restrict        vector_x,
+    ValueT*     __restrict        vector_y_out)
+{
+    for (int i = rowIdx_start; i < rowIdx_end; ++i)
+    {
+        ValueT running_total = 0.0;
+        for (OffsetT k = row_offsets[i]; k < row_offsets[i + 1]; ++k)
+        {
+            running_total += values[k] * vector_x[column_indices[k]];
+        }
+        vector_y_out[i] = running_total;
+    }
+}
+
+template <
+    typename ValueT,
+    typename OffsetT>
+void OmpMergeCsrLenGotomv(
+    int                           num_threads,
+    OffsetT                       num_rows,
+    OffsetT                       num_nonzeros,
+    OffsetT*    __restrict        row_offsets,
+    OffsetT*    __restrict        column_indices,
+    ValueT*     __restrict        values,
+    ValueT*     __restrict        vector_x,
+    ValueT*     __restrict        vector_y_out)
+{
+    // Temporary storage for inter-thread fix-up after load-balanced work
+    OffsetT     row_carry_out[256];     // The last row-id each worked on by each thread when it finished its path segment
+    ValueT      value_carry_out[256];   // The running total within each thread when it finished its path segment
+
+    #pragma omp parallel for schedule(static) num_threads(num_threads)
+    for (int tid = 0; tid < num_threads; tid++)
+    {
+        // Merge list B (NZ indices)
+        CountingInputIterator<OffsetT>  nonzero_indices(0);
+
+        OffsetT num_merge_items     = num_rows + num_nonzeros;                          // Merge path total length
+        OffsetT items_per_thread    = (num_merge_items + num_threads - 1) / num_threads;    // Merge items per thread
+
+        // Find starting and ending MergePath coordinates (row-idx, nonzero-idx) for each thread
+        int2    thread_coord;
+        int2    thread_coord_end;
+        int     start_diagonal      = std::min(items_per_thread * tid, num_merge_items);
+        int     end_diagonal        = std::min(start_diagonal + items_per_thread, num_merge_items);
+
+        MergePathSearch(start_diagonal, row_offsets + 1, nonzero_indices, num_rows, num_nonzeros, thread_coord);
+        MergePathSearch(end_diagonal, row_offsets + 1, nonzero_indices, num_rows, num_nonzeros, thread_coord_end);
+
+        // Consume first row if partial
+        if (thread_coord.y > row_offsets[thread_coord.x]) {
+            ValueT running_total = 0.0;
+            for (; thread_coord.y < row_offsets[thread_coord.x + 1]; ++thread_coord.y)
+            {
+                running_total += values[thread_coord.y] * vector_x[column_indices[thread_coord.y]];
+            }
+            vector_y_out[thread_coord.x] = running_total;
+            ++thread_coord.x;
+        }
+
+        // Consume whole rows
+        csrLenGotoKernel(thread_coord.x, thread_coord_end.x, row_offsets, column_indices, values, vector_x, vector_y_out);
+
+        // Consume partial portion of thread's last row
+        ValueT running_total = 0.0;
+        for (int k = row_offsets[thread_coord_end.x]; k < thread_coord_end.y; ++k)
+        {
+            running_total += values[k] * vector_x[column_indices[k]];
+        }
+
+        // Save carry-outs
+        row_carry_out[tid] = thread_coord_end.x;
+        value_carry_out[tid] = running_total;
+    }
+
+    // Carry-out fix-up (rows spanning multiple threads)
+    for (int tid = 0; tid < num_threads - 1; ++tid)
+    {
+        if (row_carry_out[tid] < num_rows)
+            vector_y_out[row_carry_out[tid]] += value_carry_out[tid];
+    }
+}
+
+
+/**
+ * Run OmpMergeCsrLenGotomv
+ */
+template <
+    typename ValueT,
+    typename OffsetT>
+float TestOmpMergeCsrLenGotomv(
+    CsrMatrix<ValueT, OffsetT>&     a,
+    ValueT*                         vector_x,
+    ValueT*                         reference_vector_y_out,
+    ValueT*                         vector_y_out,
+    int                             timing_iterations,
+    float                           &setup_ms)
+{
+    setup_ms = 0.0;
+
+    if (g_omp_threads == -1)
+        g_omp_threads = omp_get_num_procs();
+    int num_threads = g_omp_threads;
+
+    // Warmup/correctness
+    memset(vector_y_out, -1, sizeof(ValueT) * a.num_rows);
+    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    if (!g_quiet)
+    {
+        // Check answer
+        int compare = CompareResults(reference_vector_y_out, vector_y_out, a.num_rows, true);
+        printf("\t%s\n", compare ? "FAIL" : "PASS"); fflush(stdout);
+    }
+    if (!g_quiet)
+        printf("\tUsing %d threads on %d procs\n", g_omp_threads, omp_get_num_procs());
+ 
+    // Re-populate caches, etc.
+    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+
+    // Timing
+    float elapsed_ms = 0.0;
+    CpuTimer timer;
+    timer.Start();
+    for(int it = 0; it < timing_iterations; ++it)
+    {
+        OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    }
+    timer.Stop();
+    elapsed_ms += timer.ElapsedMillis();
+
+    return elapsed_ms / timing_iterations;
+}
+
+//---------------------------------------------------------------------
 // MKL SpMV
 //---------------------------------------------------------------------
 
@@ -649,6 +800,12 @@ void RunTests(
     if (!g_quiet) printf("\n\n");
     printf("Merge CsrMV, "); fflush(stdout);
     avg_ms = TestOmpMergeCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    DisplayPerf(setup_ms, avg_ms, csr_matrix);
+
+    // Merge CSRLenGoto SpMV
+    if (!g_quiet) printf("\n\n");
+    printf("Merge CsrLenGotoMV, "); fflush(stdout);
+    avg_ms = TestOmpMergeCsrLenGotomv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
     DisplayPerf(setup_ms, avg_ms, csr_matrix);
 
     // Cleanup
