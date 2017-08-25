@@ -65,6 +65,7 @@ struct GraphStats
     double      pearson_r;              // coefficient of variation x vs y (how linear the sparsity plot is)
 
     double      row_length_mean;        // mean
+    int         row_length_max;         // max
     double      row_length_std_dev;     // sample std_dev
     double      row_length_variation;   // coefficient of variation
     double      row_length_skewness;    // skewness
@@ -77,6 +78,7 @@ struct GraphStats
                 "\t num_cols: %d\n"
                 "\t num_nonzeros: %d\n"
                 "\t row_length_mean: %.5f\n"
+                "\t row_length_max: %d\n"
                 "\t row_length_std_dev: %.5f\n"
                 "\t row_length_variation: %.5f\n"
                 "\t row_length_skewness: %.5f\n",
@@ -84,6 +86,7 @@ struct GraphStats
                     num_cols,
                     num_nonzeros,
                     row_length_mean,
+                    row_length_max,
                     row_length_std_dev,
                     row_length_variation,
                     row_length_skewness);
@@ -93,6 +96,7 @@ struct GraphStats
                 "%d, "
                 "%d, "
                 "%.5f, "
+                "%d, "
                 "%.5f, "
                 "%.5f, "
                 "%.5f, ",
@@ -100,6 +104,7 @@ struct GraphStats
                     num_cols,
                     num_nonzeros,
                     row_length_mean,
+                    row_length_max,
                     row_length_std_dev,
                     row_length_variation,
                     row_length_skewness);
@@ -895,11 +900,14 @@ struct CsrMatrix
 
         // Sample mean
         stats.row_length_mean       = double(num_nonzeros) / num_rows;
+        OffsetT max                 = 0;
         double variance             = 0.0;
         stats.row_length_skewness   = 0.0;
         for (OffsetT row = 0; row < num_rows; ++row)
         {
             OffsetT length              = row_offsets[row + 1] - row_offsets[row];
+            if (length > max)
+                max = length;
             double delta                = double(length) - stats.row_length_mean;
             variance   += (delta * delta);
             stats.row_length_skewness   += (delta * delta * delta);
@@ -908,6 +916,7 @@ struct CsrMatrix
         stats.row_length_std_dev    = sqrt(variance);
         stats.row_length_skewness   = (stats.row_length_skewness / num_rows) / pow(stats.row_length_std_dev, 3.0);
         stats.row_length_variation  = stats.row_length_std_dev / stats.row_length_mean;
+        stats.row_length_max = max;
 
         return stats;
     }
