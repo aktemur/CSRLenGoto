@@ -1,3 +1,5 @@
 _cpu_spmv_driver
 _gpu_spmv_driver
 mtx
+matrixNames.txt
+*~

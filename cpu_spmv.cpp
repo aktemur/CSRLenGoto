@@ -371,9 +371,6 @@ float TestOmpMergeCsrmv(
         g_omp_threads = omp_get_num_procs();
     int num_threads = g_omp_threads;
 
-    if (!g_quiet)
-        printf("\tUsing %d threads on %d procs\n", g_omp_threads, omp_get_num_procs());
-
     // Warmup/correctness
     memset(vector_y_out, -1, sizeof(ValueT) * a.num_rows);
     OmpMergeCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
@@ -383,6 +380,8 @@ float TestOmpMergeCsrmv(
         int compare = CompareResults(reference_vector_y_out, vector_y_out, a.num_rows, true);
         printf("\t%s\n", compare ? "FAIL" : "PASS"); fflush(stdout);
     }
+    if (!g_quiet)
+        printf("\tUsing %d threads on %d procs\n", g_omp_threads, omp_get_num_procs());
  
     // Re-populate caches, etc.
     OmpMergeCsrmv(g_omp_threads, a, a.row_offsets + 1, a.column_indices, a.values, vector_x, vector_y_out);
