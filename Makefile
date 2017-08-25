@@ -168,6 +168,6 @@ gpu_spmv : gpu_spmv.cu $(DEPS)
 # make cpu_spmv
 #-------------------------------------------------------------------------------
 
-cpu_spmv : cpu_spmv.cpp $(DEPS)
-	$(OMPCC) $(DEFINES) -DCUB_MKL -o _cpu_spmv_driver cpu_spmv.cpp $(OMPCC_FLAGS)
+cpu_spmv : cpu_spmv.cpp csrlengoto.cpp $(DEPS)
+	$(OMPCC) $(DEFINES) -DCUB_MKL -o _cpu_spmv_driver csrlengoto.cpp cpu_spmv.cpp $(OMPCC_FLAGS)
 
