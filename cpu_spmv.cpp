@@ -414,33 +414,20 @@ float TestOmpMergeCsrmv(
  * OpenMP CPU merge-based SpMV
  */
 void csrLenGotoKernel(
-    int                 rowIdx_start,
-    int                 rowIdx_end,
     int*     __restrict row_offsets,
     int*     __restrict column_indices,
     double*  __restrict values,
     double*  __restrict vector_x,
-    double*  __restrict vector_y_out);
+    double*  __restrict vector_y_out,
+    int                 N);
 
 void csrLenGotoKernel(
-    int                 rowIdx_start,
-    int                 rowIdx_end,
     int*     __restrict row_offsets,
     int*     __restrict column_indices,
     float*   __restrict values,
     float*   __restrict vector_x,
-    float*   __restrict vector_y_out)
-{
-    for (int i = rowIdx_start; i < rowIdx_end; ++i)
-    {
-        float running_total = 0.0;
-        for (int k = row_offsets[i]; k < row_offsets[i + 1]; ++k)
-        {
-            running_total += values[k] * vector_x[column_indices[k]];
-        }
-        vector_y_out[i] = running_total;
-    }
-}
+    float*   __restrict vector_y_out,
+    int                 N);
 
 template <
     typename ValueT,
@@ -489,7 +476,8 @@ void OmpMergeCsrLenGotomv(
         }
 
         // Consume whole rows
-        csrLenGotoKernel(thread_coord.x, thread_coord_end.x, row_offsets, column_indices, values, vector_x, vector_y_out);
+        int N =  thread_coord_end.x -  thread_coord.x;
+        csrLenGotoKernel(row_offsets + thread_coord.x, column_indices, values, vector_x, vector_y_out + thread_coord.x, N);
 
         // Consume partial portion of thread's last row
         ValueT running_total = 0.0;
