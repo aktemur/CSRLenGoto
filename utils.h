@@ -48,6 +48,7 @@
 #include <sstream>
 #include <iostream>
 #include <limits>
+#include <float.h>
 
 #ifdef CUB_MKL
     #include "omp.h"
@@ -686,33 +687,20 @@ int CompareResults(T* computed, S* reference, OffsetT len, bool verbose = true)
 }
 
 
-/**
- * Compares the equivalence of two arrays
- */
-template <typename OffsetT>
-int CompareResults(float* computed, float* reference, OffsetT len, bool verbose = true)
+bool AlmostEqualRelative(double A, double B,
+                         double maxRelDiff = FLT_EPSILON)
 {
-    float meps = std::numeric_limits<float>::epsilon();
- 
-    for (OffsetT i = 0; i < len; i++)
-    {
-        float   a           = computed[i];
-        float   b           = reference[i];
-        int     int_diff    = std::abs(*(int*)&a - *(int*)&b);
-        float   sqrt_diff   = sqrt(float(int_diff));
+  // Calculate the difference.
+  double diff = fabs(A - B);
+  A = fabs(A);
+  B = fabs(B);
+  // Find the largest
+  double largest = (B > A) ? B : A;
 
-        if (sqrt_diff > len)      
-        {
-            if (verbose) std::cout << "INCORRECT (sqrt_diff: " << sqrt_diff << "): [" << i << "]: "
-                 << computed[i] << " != "
-                 << reference[i]; 
-            return 1;
-        }
-    }
-    return 0;
+  if (diff <= largest * maxRelDiff)
+    return true;
+  return false;
 }
-
-
 
 /**
  * Compares the equivalence of two arrays
@@ -725,16 +713,11 @@ int CompareResults(double* computed, double* reference, OffsetT len, bool verbos
  
     for (OffsetT i = 0; i < len; i++)
     {
-        float   a           = computed[i];
-        float   b           = reference[i];
-        int     int_diff    = std::abs(*(int*)&a - *(int*)&b);
-        float   sqrt_diff   = sqrt(float(int_diff));
-
-        if (sqrt_diff > len)      
+        double  a           = computed[i];
+        double  b           = reference[i];
+        if (!AlmostEqualRelative(a, b))
         {
-            if (verbose) std::cout << "INCORRECT (sqrt_diff: " << sqrt_diff << "): [" << i << "]: "
-                 << computed[i] << " != "
-                 << reference[i]; 
+            if (verbose) std::cout << "INCORRECT [" << i << "]: " << a << " != " << b;
             return 1;
         }
     }

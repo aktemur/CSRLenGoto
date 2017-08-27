@@ -380,7 +380,7 @@ float TestOmpMergeCsrmv(
     if (!g_quiet)
     {
         // Check answer
-        int compare = CompareResults(reference_vector_y_out, vector_y_out, a.num_rows, true);
+        int compare = CompareResults(vector_y_out, reference_vector_y_out, a.num_rows, true);
         printf("\t%s\n", compare ? "FAIL" : "PASS"); fflush(stdout);
     }
     if (!g_quiet)
@@ -538,7 +538,7 @@ float TestOmpMergeCsrLenGotomv(
     if (!g_quiet)
     {
         // Check answer
-        int compare = CompareResults(reference_vector_y_out, vector_y_out, a.num_rows, true);
+        int compare = CompareResults(vector_y_out, reference_vector_y_out, a.num_rows, true);
         printf("\t%s\n", compare ? "FAIL" : "PASS"); fflush(stdout);
     }
     if (!g_quiet)
@@ -624,7 +624,7 @@ float TestMklCsrmv(
     if (!g_quiet)
     {
         // Check answer
-        int compare = CompareResults(reference_vector_y_out, vector_y_out, a.num_rows, true);
+        int compare = CompareResults(vector_y_out, reference_vector_y_out, a.num_rows, true);
         printf("\t%s\n", compare ? "FAIL" : "PASS"); fflush(stdout);
 
 //        memset(vector_y_out, -1, sizeof(ValueT) * a.num_rows);
