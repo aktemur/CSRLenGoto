@@ -794,25 +794,31 @@ void RunTests(
     // Compute reference answer
     SpmvGold(csr_matrix.num_rows, csr_matrix.row_offsets, csr_matrix.column_indices, csr_matrix.values, vector_x, reference_vector_y_out);
 
-    float avg_ms, setup_ms;
+    float avg_ms[3], setup_ms;
 
     // MKL SpMV
     if (!g_quiet) printf("\n\n");
     printf("MKL CsrMV, "); fflush(stdout);
-    avg_ms = TestMklCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
-    DisplayPerf(setup_ms, avg_ms, csr_matrix);
+    avg_ms[0] = TestMklCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    avg_ms[1] = TestMklCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    avg_ms[2] = TestMklCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    DisplayPerf(setup_ms, min(avg_ms[0], min(avg_ms[1], avg_ms[2])), csr_matrix);
 
     // Merge SpMV
     if (!g_quiet) printf("\n\n");
     printf("Merge CsrMV, "); fflush(stdout);
-    avg_ms = TestOmpMergeCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
-    DisplayPerf(setup_ms, avg_ms, csr_matrix);
+    avg_ms[0] = TestOmpMergeCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    avg_ms[1] = TestOmpMergeCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    avg_ms[2] = TestOmpMergeCsrmv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    DisplayPerf(setup_ms, min(avg_ms[0], min(avg_ms[1], avg_ms[2])), csr_matrix);
 
     // Merge CSRLenGoto SpMV
     if (!g_quiet) printf("\n\n");
     printf("Merge CsrLenGotoMV, "); fflush(stdout);
-    avg_ms = TestOmpMergeCsrLenGotomv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
-    DisplayPerf(setup_ms, avg_ms, csr_matrix);
+    avg_ms[0] = TestOmpMergeCsrLenGotomv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    avg_ms[1] = TestOmpMergeCsrLenGotomv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    avg_ms[2] = TestOmpMergeCsrLenGotomv(csr_matrix, vector_x, reference_vector_y_out, vector_y_out, timing_iterations, setup_ms);
+    DisplayPerf(setup_ms, min(avg_ms[0], min(avg_ms[1], avg_ms[2])), csr_matrix);
 
     // Cleanup
     if (csr_matrix.IsNumaMalloc())
