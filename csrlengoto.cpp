@@ -51,7 +51,7 @@ void csrLenGotoKernel(
   __asm__("mulsd (%rcx,%r9,8), %xmm1"); // xmm1 <- xmm1 * v[r9]
   __asm__("addsd %xmm1, %xmm0");        // sum <- sum + xmm1
 
-  BODY_25
+  BODY_2500
   // L_0:
 
   __asm__("movsd %xmm0, (%r8,%rbx,8)"); // y[i] <- sum       ; 6 bytes

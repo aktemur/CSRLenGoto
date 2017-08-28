@@ -1,13 +1,13 @@
 # mark_description "Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 17.0.0.098 Build 20160721";
 # mark_description "";
-# mark_description "-O3 -S";
+# mark_description "-O1 -S";
 	.file "csrlengoto.cpp"
 	.text
 ..TXTST0:
 # -- Begin  _Z16csrLenGotoKernelPiS_PdS0_S0_i
 	.text
 # mark_begin;
-       .align    16,0x90
+
 	.globl _Z16csrLenGotoKernelPiS_PdS0_S0_i
 # --- csrLenGotoKernel(int *, int *, double *, double *, double *, int)
 _Z16csrLenGotoKernelPiS_PdS0_S0_i:
@@ -173,6 +173,12381 @@ _Z16csrLenGotoKernelPiS_PdS0_S0_i:
         incq      %rax                                          #54.0
         mulsd     (%rcx,%r9,8), %xmm1                           #54.0
         addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
+        movslq    (%rsi,%rax,4), %r9                            #54.0
+        movsd     (%rdx,%rax,8), %xmm1                          #54.0
+        incq      %rax                                          #54.0
+        mulsd     (%rcx,%r9,8), %xmm1                           #54.0
+        addsd     %xmm1, %xmm0                                  #54.0
         movsd     %xmm0, (%r8,%rbx,8)                           #57.0
         incq      %rbx                                          #58.0
 # Begin ASM
@@ -200,7 +12575,6 @@ _Z16csrLenGotoKernelPiS_PdS0_S0_i:
                                 # Execution count [1.00e+00]
 	.cfi_def_cfa_offset 8
         ret                                                     #78.1
-        .align    16,0x90
 	.cfi_endproc
                                 # LOE
 # mark_end;
