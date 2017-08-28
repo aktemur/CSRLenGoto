@@ -2,8 +2,6 @@
 
 source /opt/intel/bin/compilervars.sh intel64
 
-methodName=$1
-
 while read line
 do
     groupName=$(dirname $line)
@@ -15,3 +13,7 @@ do
 
 done < matrixNames.txt
 
+echo "Subject: Merge-spmv on $HOSTNAME
+
+Merge-spmv test on $HOSTNAME is complete.
+" | ssmtp baris.aktemur@ozyegin.edu.tr
