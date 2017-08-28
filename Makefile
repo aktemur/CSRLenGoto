@@ -167,11 +167,8 @@ gpu_spmv : gpu_spmv.cu $(DEPS)
 # make cpu_spmv
 #-------------------------------------------------------------------------------
 
-csrlengoto-body.s : csrlengoto-body-gen.s
-	$(OMPCC) -E csrlengoto-body-gen.s | sed 's/@/\n/g' > csrlengoto-body.s
-
-csrlengoto.s : csrlengoto-header.s csrlengoto-body.s csrlengoto-footer.s
-	cat csrlengoto-header.s csrlengoto-body.s csrlengoto-footer.s > csrlengoto.s
+csrlengoto.s : csrlengoto-header.s csrlengoto-body-gen.s csrlengoto-footer.s
+	$(OMPCC) -E csrlengoto-body-gen.s | sed 's/@/\n/g' | cat csrlengoto-header.s - csrlengoto-footer.s > csrlengoto.s
 
 csrlengoto.o : csrlengoto.s
 	$(OMPCC) $(OPT_LEVEL) -c csrlengoto.s
