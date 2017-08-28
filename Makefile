@@ -37,14 +37,14 @@
 # make gpu_spmv [sm=<XXX,...>] [verbose=<0|1>] 
 #
 #-------------------------------------------------------------------------------
- 
+
 #-------------------------------------------------------------------------------
 # Commandline Options
 #-------------------------------------------------------------------------------
 
 
 # [sm=<XXX,...>] Compute-capability to compile for, e.g., "sm=200,300,350" (SM20 by default).
-  
+
 COMMA = ,
 ifdef sm
 	SM_ARCH = $(subst $(COMMA),-,$(sm))
@@ -101,10 +101,10 @@ ifeq (WIN_NT, $(findstring WIN_NT, $(OSUPPER)))
 	NVCCFLAGS += -Xcompiler /bigobj -Xcompiler /Zm500
 	CC = cl
 	NPPI = -lnppi
-	
-	# Multithreaded runtime
+
+        # Multithreaded runtime
 	NVCCFLAGS += -Xcompiler /MT
-	
+
 ifneq ($(force32), 1)
 	CUDART_CYG = "$(shell dirname $(NVCC))/../lib/Win32/cudart.lib"
 else
@@ -130,7 +130,8 @@ endif
 
 # OMP compiler
 OMPCC=icpc
-OMPCC_FLAGS=-qopenmp -O3 -lrt -fno-alias -xHost -lnuma -O3 -mkl
+OPT_LEVEL=-O3
+OMPCC_FLAGS=-qopenmp $(OPT_LEVEL) -lrt -fno-alias -xHost -lnuma -mkl
 
 # Includes
 INC += -I$(CUB_DIR) -I$(CUB_DIR)test 
@@ -155,7 +156,6 @@ DEPS = 	$(call rwildcard, $(CUB_DIR),*.cuh) \
 clean :
 	rm -f _gpu_spmv_driver _cpu_spmv_driver
 
-		
 #-------------------------------------------------------------------------------
 # make gpu_spmv
 #-------------------------------------------------------------------------------
@@ -163,7 +163,6 @@ clean :
 gpu_spmv : gpu_spmv.cu $(DEPS)
 	$(NVCC) $(DEFINES) $(SM_TARGETS) -o _gpu_spmv_driver gpu_spmv.cu $(NVCCFLAGS) $(CPU_ARCH) $(INC) $(LIBS) -lcusparse -O3
 
-	
 #-------------------------------------------------------------------------------
 # make cpu_spmv
 #-------------------------------------------------------------------------------
