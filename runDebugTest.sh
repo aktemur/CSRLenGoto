@@ -2,7 +2,7 @@
 
 source /opt/intel/bin/compilervars.sh intel64
 
-methodName=$1
+param=$1
 
 while read line
 do
@@ -11,7 +11,7 @@ do
 
     echo ----- "$groupName"/"$matrixName"
 
-    ./cpu_spmv --mtx=./mtx/$groupName/$matrixName/$matrixName".mtx" --i=1 | grep -E "CsrMV|CsrLenGotoMV"
+    ./cpu_spmv --mtx=./mtx/$groupName/$matrixName/$matrixName".mtx" --i=1 $param | grep -E "CsrMV|CsrLenGotoMV"
 
 done < matrixNames.txt
 

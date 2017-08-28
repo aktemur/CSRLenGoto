@@ -450,7 +450,7 @@ void OmpMergeCsrLenGotomv(
     int                           num_threads,
     OffsetT                       num_rows,
     OffsetT                       num_nonzeros,
-    OffsetT*    __restrict        row_jump_distances,
+    OffsetT**   __restrict        row_jump_distances,
     OffsetT*    __restrict        row_offsets,
     OffsetT*    __restrict        column_indices,
     ValueT*     __restrict        values,
@@ -492,7 +492,8 @@ void OmpMergeCsrLenGotomv(
 
         // Consume whole rows
         int N =  thread_coord_end.x -  thread_coord.x;
-        csrLenGotoKernel(row_jump_distances + thread_coord.x, column_indices, values, vector_x, vector_y_out + thread_coord.x, N);
+        int firstValueIdx = row_offsets[thread_coord.x];
+        csrLenGotoKernel(row_jump_distances[tid], column_indices + firstValueIdx, values + firstValueIdx, vector_x, vector_y_out + thread_coord.x, N);
 
         // Consume partial portion of thread's last row
         ValueT running_total = 0.0;
@@ -538,7 +539,7 @@ float TestOmpMergeCsrLenGotomv(
     // Conversion from CSR to CSRLen
     CpuTimer setupTimer;
     setupTimer.Start();
-    int *newRows = new int[a.num_rows + num_threads];
+    int **row_jump_distances = new int*[num_threads];
     #pragma omp parallel for schedule(static) num_threads(num_threads)
     for (int tid = 0; tid < num_threads; tid++)
     {
@@ -559,20 +560,21 @@ float TestOmpMergeCsrLenGotomv(
         if (thread_coord.y > a.row_offsets[thread_coord.x]) {
             ++thread_coord.x; // skip the first row because it's partial
         }
-        
-        int i;
-        for (i = thread_coord.x; i < thread_coord_end.x; i++) {
+
+        row_jump_distances[tid] = new int[thread_coord_end.x - thread_coord.x + 1];
+        int j = 0;
+        for (int i = thread_coord.x; i < thread_coord_end.x; i++, j++) {
             int length = a.row_offsets[i + 1] - a.row_offsets[i];
-            newRows[i + tid] = -(length * 22);
+            row_jump_distances[tid][j] = -(length * 22);
         }
-        newRows[i + tid] = 6 + 3 + 3 + 4 + 7 + 3 + 3;
+        row_jump_distances[tid][j] = 6 + 3 + 3 + 4 + 7 + 3 + 3;
     }
     setupTimer.Stop();
     setup_ms = setupTimer.ElapsedMillis();
     
     // Warmup/correctness
     memset(vector_y_out, -1, sizeof(ValueT) * a.num_rows);
-    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, newRows, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, row_jump_distances, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
     if (!g_quiet)
     {
         // Check answer
@@ -583,9 +585,9 @@ float TestOmpMergeCsrLenGotomv(
         printf("\tUsing %d threads on %d procs\n", g_omp_threads, omp_get_num_procs());
  
     // Re-populate caches, etc.
-    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, newRows, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
-    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, newRows, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
-    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, newRows, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, row_jump_distances, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, row_jump_distances, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, row_jump_distances, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
 
     // Timing
     float elapsed_ms = 0.0;
@@ -593,12 +595,16 @@ float TestOmpMergeCsrLenGotomv(
     timer.Start();
     for(int it = 0; it < timing_iterations; ++it)
     {
-        OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, newRows, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+        OmpMergeCsrLenGotomv(g_omp_threads, a.num_rows, a.num_nonzeros, row_jump_distances, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
     }
     timer.Stop();
     elapsed_ms += timer.ElapsedMillis();
 
-    delete[] newRows;
+    for (int tid = 0; tid < num_threads; tid++)
+    {
+        delete[] row_jump_distances[tid];
+    }
+    delete[] row_jump_distances;
     
     return elapsed_ms / timing_iterations;
 }
