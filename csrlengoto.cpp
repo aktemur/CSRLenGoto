@@ -1,3 +1,24 @@
+#define ONELINE \
+  __asm__("movslq (%rsi,%rax,4), %r9");  \
+  __asm__("movsd (%rdx,%rax,8), %xmm1"); \
+  __asm__("incq %rax");                  \
+  __asm__("mulsd (%rcx,%r9,8), %xmm1");  \
+  __asm__("addsd %xmm1, %xmm0");         \
+
+
+#define BODY_5    ONELINE ONELINE ONELINE ONELINE ONELINE
+#define BODY_25   BODY_5 BODY_5 BODY_5 BODY_5 BODY_5
+#define BODY_125  BODY_25 BODY_25 BODY_25 BODY_25 BODY_25
+#define BODY_500  BODY_125 BODY_125 BODY_125 BODY_125
+#define BODY_2500 BODY_500 BODY_500 BODY_500 BODY_500 BODY_500
+#define BODY_10K  BODY_2500 BODY_2500 BODY_2500 BODY_2500
+#define BODY_50K  BODY_10K BODY_10K BODY_10K BODY_10K BODY_10K
+#define BODY_100K BODY_50K BODY_50K
+#define BODY_500K BODY_100K BODY_100K BODY_100K BODY_100K BODY_100K
+#define BODY_1M   BODY_500K BODY_500K
+#define BODY_2M   BODY_1M BODY_1M
+#define BODY_2_5M BODY_2M BODY_500K
+
 void csrLenGotoKernel(
     int*     __restrict row_offsets,
     int*     __restrict column_indices,
@@ -30,41 +51,7 @@ void csrLenGotoKernel(
   __asm__("mulsd (%rcx,%r9,8), %xmm1"); // xmm1 <- xmm1 * v[r9]
   __asm__("addsd %xmm1, %xmm0");        // sum <- sum + xmm1
 
-  __asm__("movslq (%rsi,%rax,4), %r9");
-  __asm__("movsd (%rdx,%rax,8), %xmm1");
-  __asm__("incq %rax");
-  __asm__("mulsd (%rcx,%r9,8), %xmm1");
-  __asm__("addsd %xmm1, %xmm0");
-
-  __asm__("movslq (%rsi,%rax,4), %r9");
-  __asm__("movsd (%rdx,%rax,8), %xmm1");
-  __asm__("incq %rax");
-  __asm__("mulsd (%rcx,%r9,8), %xmm1");
-  __asm__("addsd %xmm1, %xmm0");
-
-  __asm__("movslq (%rsi,%rax,4), %r9");
-  __asm__("movsd (%rdx,%rax,8), %xmm1");
-  __asm__("incq %rax");
-  __asm__("mulsd (%rcx,%r9,8), %xmm1");
-  __asm__("addsd %xmm1, %xmm0");
-
-  __asm__("movslq (%rsi,%rax,4), %r9");
-  __asm__("movsd (%rdx,%rax,8), %xmm1");
-  __asm__("incq %rax");
-  __asm__("mulsd (%rcx,%r9,8), %xmm1");
-  __asm__("addsd %xmm1, %xmm0");
-
-  __asm__("movslq (%rsi,%rax,4), %r9");
-  __asm__("movsd (%rdx,%rax,8), %xmm1");
-  __asm__("incq %rax");
-  __asm__("mulsd (%rcx,%r9,8), %xmm1");
-  __asm__("addsd %xmm1, %xmm0");
-
-  __asm__("movslq (%rsi,%rax,4), %r9");
-  __asm__("movsd (%rdx,%rax,8), %xmm1");
-  __asm__("incq %rax");
-  __asm__("mulsd (%rcx,%r9,8), %xmm1");
-  __asm__("addsd %xmm1, %xmm0");
+  BODY_25
   // L_0:
 
   __asm__("movsd %xmm0, (%r8,%rbx,8)"); // y[i] <- sum       ; 6 bytes
