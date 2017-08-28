@@ -168,5 +168,6 @@ gpu_spmv : gpu_spmv.cu $(DEPS)
 #-------------------------------------------------------------------------------
 
 cpu_spmv : cpu_spmv.cpp csrlengoto.cpp $(DEPS)
-	$(OMPCC) $(DEFINES) -DCUB_MKL -o _cpu_spmv_driver csrlengoto.cpp cpu_spmv.cpp $(OMPCC_FLAGS)
+	$(OMPCC) $(OPT_LEVEL) -c csrlengoto.s
+	$(OMPCC) $(DEFINES) -DCUB_MKL -o _cpu_spmv_driver csrlengoto.o cpu_spmv.cpp $(OMPCC_FLAGS)
 
