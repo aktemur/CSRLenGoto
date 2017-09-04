@@ -616,37 +616,74 @@ float TestOmpMergeCsrLenGotomv(
 /**
  * MKL CPU SpMV (specialized for fp32)
  */
-template <typename OffsetT>
 void MklCsrmv(
-    int                           num_threads,
-    OffsetT                       num_rows,
-    OffsetT                       num_nonzeros,
-    OffsetT*    __restrict        row_offsets,
-    OffsetT*    __restrict        column_indices,
-    float*      __restrict        values,
-    float*      __restrict        vector_x,
-    float*      __restrict        vector_y_out)
+    const sparse_matrix_t &A,
+    const struct matrix_descr &descr,
+    float* __restrict vector_x,
+    float* __restrict vector_y_out)
 {
-    mkl_cspblas_scsrgemv("n", &num_rows, values, row_offsets, column_indices, vector_x, vector_y_out);
+    const float alpha = 1.0;
+    const float beta = 0.0;
+    sparse_status_t status = mkl_sparse_s_mv(SPARSE_OPERATION_NON_TRANSPOSE,
+					     alpha,
+					     A,
+					     descr,
+					     vector_x,
+					     beta,
+					     vector_y_out);
+    if (status != SPARSE_STATUS_SUCCESS) {
+        fprintf(stderr, "Failed to do mv operation. Error code: %d\n", status);
+        exit(1);
+    }
+}
+
+template <typename OffsetT>
+void MklCreateMatrix(CsrMatrix<float, OffsetT> &a, sparse_matrix_t &mklMatrix)
+{
+    sparse_status_t status;
+    status = mkl_sparse_s_create_csr(&mklMatrix, SPARSE_INDEX_BASE_ZERO, a.num_rows, a.num_cols,
+				     a.row_offsets, a.row_offsets + 1, a.column_indices, a.values);
+    if (status != SPARSE_STATUS_SUCCESS) {
+        fprintf(stderr, "Failed to create csr. Error code: %d\n", status);
+        exit(1);
+    }
 }
 
 /**
  * MKL CPU SpMV (specialized for fp64)
  */
-template <typename OffsetT>
 void MklCsrmv(
-    int                           num_threads,
-    OffsetT                       num_rows,
-    OffsetT                       num_nonzeros,
-    OffsetT*    __restrict        row_offsets,
-    OffsetT*    __restrict        column_indices,
-    double*     __restrict        values,
-    double*     __restrict        vector_x,
-    double*     __restrict        vector_y_out)
+    const sparse_matrix_t &A,
+    const struct matrix_descr &descr,
+    double* __restrict vector_x,
+    double* __restrict vector_y_out)
 {
-    mkl_cspblas_dcsrgemv("n", &num_rows, values, row_offsets, column_indices, vector_x, vector_y_out);
+    const double alpha = 1.0;
+    const double beta = 0.0;
+    sparse_status_t status = mkl_sparse_d_mv(SPARSE_OPERATION_NON_TRANSPOSE,
+					     alpha,
+					     A,
+					     descr,
+					     vector_x,
+					     beta,
+					     vector_y_out);
+    if (status != SPARSE_STATUS_SUCCESS) {
+        fprintf(stderr, "Failed to do mv operation. Error code: %d\n", status);
+        exit(1);
+    }
 }
 
+template <typename OffsetT>
+void MklCreateMatrix(CsrMatrix<double, OffsetT> &a, sparse_matrix_t &mklMatrix)
+{
+    sparse_status_t status;
+    status = mkl_sparse_d_create_csr(&mklMatrix, SPARSE_INDEX_BASE_ZERO, a.num_rows, a.num_cols,
+				     a.row_offsets, a.row_offsets + 1, a.column_indices, a.values);
+    if (status != SPARSE_STATUS_SUCCESS) {
+        fprintf(stderr, "Failed to create csr. Error code: %d\n", status);
+        exit(1);
+    }
+}
 
 /**
  * Run MKL CsrMV
@@ -663,23 +700,46 @@ float TestMklCsrmv(
     float                           &setup_ms)
 {
     setup_ms = 0.0;
+    sparse_status_t status;
+    sparse_matrix_t mklMatrix;
+    struct matrix_descr matrixDescr;
+    matrixDescr.type = SPARSE_MATRIX_TYPE_GENERAL;
+    
+    // MKL Inspection
+    CpuTimer setupTimer;
+    setupTimer.Start();
 
+    MklCreateMatrix(a, mklMatrix);
+    
+    status = mkl_sparse_set_mv_hint(mklMatrix, SPARSE_OPERATION_NON_TRANSPOSE, matrixDescr, timing_iterations);
+    if (status != SPARSE_STATUS_SUCCESS) {
+        fprintf(stderr, "Failed to set mv hint. Error code: %d\n", status);
+        exit(1);
+    }
+
+    status = mkl_sparse_optimize(mklMatrix);
+    if (status != SPARSE_STATUS_SUCCESS) {
+        fprintf(stderr, "Failed to optimize mkl. Error code: %d\n", status);
+        exit(1);
+    }
+    
+    setupTimer.Stop();
+    setup_ms = setupTimer.ElapsedMillis();
+    
     // Warmup/correctness
     memset(vector_y_out, -1, sizeof(ValueT) * a.num_rows);
-    MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    MklCsrmv(mklMatrix, matrixDescr, vector_x, vector_y_out);
     if (!g_quiet)
     {
         // Check answer
         int compare = CompareResults(vector_y_out, reference_vector_y_out, a.num_rows, true);
         printf("\t%s\n", compare ? "FAIL" : "PASS"); fflush(stdout);
-
-//        memset(vector_y_out, -1, sizeof(ValueT) * a.num_rows);
     }
 
     // Re-populate caches, etc.
-    MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
-    MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
-    MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+    MklCsrmv(mklMatrix, matrixDescr, vector_x, vector_y_out);
+    MklCsrmv(mklMatrix, matrixDescr, vector_x, vector_y_out);
+    MklCsrmv(mklMatrix, matrixDescr, vector_x, vector_y_out);
 
     // Timing
     float elapsed_ms = 0.0;
@@ -687,7 +747,7 @@ float TestMklCsrmv(
     timer.Start();
     for(int it = 0; it < timing_iterations; ++it)
     {
-        MklCsrmv(g_omp_threads, a.num_rows, a.num_nonzeros, a.row_offsets, a.column_indices, a.values, vector_x, vector_y_out);
+        MklCsrmv(mklMatrix, matrixDescr, vector_x, vector_y_out);
     }
     timer.Stop();
     elapsed_ms += timer.ElapsedMillis();
