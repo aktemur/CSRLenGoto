@@ -19,6 +19,6 @@ assembly file, `csrlengoto.s`. If you're only interested in generating this file
 
 Currently, the generated file will work for matrices
 whose max row length is smaller than 25. To handle matrices with larger
-max row lengths, change this line:
+max row lengths, change the line below to e.g. `BODY_50K`.
 
 <https://github.com/aktemur/CSRLenGoto/blob/master/csrlengoto-body-gen.s#L22>:
