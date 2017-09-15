@@ -19,6 +19,6 @@
 #define BODY_2M   BODY_1M BODY_1M
 #define BODY_2_5M BODY_2M BODY_500K
 
-        BODY_10K
+        BODY_25
 
 

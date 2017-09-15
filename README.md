@@ -12,3 +12,13 @@ The starting point where our code differentiates from the merge-based SpMV code 
 
 For a version of CSRLenGoto where we used runtime code generation to
 produce the SpMV code dynamically, see [Thundercat](https://github.com/ozusrl/thundercat).
+
+Type `make cpu_spmv` to compile. This will produce, compile, and link the CSRLenGoto
+assembly file, `csrlengoto.s`. If you're only interested in generating this file, type
+`make csrlengoto.s`.
+
+Currently, the generated file will work for matrices
+whose max row length is smaller than 25. To handle matrices with larger
+max row lengths, change this line:
+
+<https://github.com/aktemur/CSRLenGoto/blob/master/csrlengoto-body-gen.s#L22>:
